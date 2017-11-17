@@ -14,10 +14,10 @@ function BoardMember (name, homeState, training){
   this.doCharity = function(){
     return 'I like to help people.'
   }
+  this.sayHi = function(){
+    return "Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${training}."
+  }
 
-
-
-  
 }
 
 
