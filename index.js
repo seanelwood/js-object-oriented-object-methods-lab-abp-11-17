@@ -8,6 +8,9 @@ function BoardMember (name, homeState, training){
   this.approve = function(){
     return 'You can do that!';
   }
+  this.doCharity = function(){
+    return 'You will see great things from Scuber.'
+  }
 }
 
 
