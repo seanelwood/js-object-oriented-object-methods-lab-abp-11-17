@@ -1,4 +1,7 @@
-function Boardmember(name, homeState, training){
+function Boardmember (name, homeState, training){
+  this.name = name;
+  this.homeState = homeState;
+  this. training = training;
   this.veto = function(){
     return 'No, I must disagree';
   }
@@ -18,7 +21,7 @@ function Boardmember(name, homeState, training){
 //   this.name = name;
 //   this.homeState = homeState;
 //   this.training = training;
-// 
+//
 //   this.veto = function(){
 //     return `No, I must disagree`;
 //   }
